@@ -13,10 +13,10 @@ Este projeto é um **script de automação para extração de conteúdo e notifi
 
 Funcionalidades principais:
 
-- **Raspagem de conteúdo** de sites usando **requests + BeautifulSoup** (ou **Selenium** para sites dinâmicos).  
+- **Raspagem de conteúdo** de sites usando **requests + BeautifulSoup**.  
 - **Identificação de novidades**, como artigos, vagas de emprego ou publicações, comparando com o histórico anterior.  
-- **Armazenamento local do histórico** em **SQLite** ou **arquivo JSON**, para comparar o que é novo.  
-- **Envio de notificações** por email ou via **Telegram Bot** quando novas informações são encontradas.  
+- **Armazenamento local do histórico** em **SQLite**, para comparar o que é novo.  
+- **Envio de notificações** por emailquando novas informações são encontradas.  
 - **Agendamento automático** para rodar em intervalos definidos usando **schedule**.  
 
 ---
@@ -27,8 +27,7 @@ Funcionalidades principais:
 - **requests** e **BeautifulSoup** – raspagem de dados de sites  
 - **Selenium** (opcional) – para sites dinâmicos  
 - **SQLite** ou **arquivo JSON** – armazenamento local do histórico  
-- **smtplib** / **SMTP** – envio de emails  
-- **Telegram Bot API** – envio de notificações via Telegram  
+- **smtplib** / **SMTP** – envio de emails
 - **schedule** – agendamento automático das verificações  
 
 
